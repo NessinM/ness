@@ -51,10 +51,10 @@ export default async function Page(props: {
   }
 
   const doc = page.data;
-  const MDX = doc.body;
   const rawContent = await page.data.getText("raw");
+  const MDX = doc.body;
+
   const links = doc.links;
-  const toc = doc.toc;
 
   return (
     <div className="flex items-stretch xl:w-full" data-slot="docs">
@@ -117,7 +117,7 @@ export default async function Page(props: {
         >
           <div className="flex min-h-0 flex-col gap-2 py-2">
             <div className="h-(--top-spacing) shrink-0" />
-            {toc?.length ? <DocsTableOfContents toc={toc} /> : null}
+            {doc.toc?.length ? <DocsTableOfContents toc={doc.toc} /> : null}
           </div>
         </ScrollArea>
       </div>
