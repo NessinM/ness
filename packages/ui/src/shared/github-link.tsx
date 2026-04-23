@@ -1,8 +1,8 @@
+import { GithubIcon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 import { Button } from "@ness/ui/components/button";
 import { Skeleton } from "@ness/ui/components/skeleton";
 import { siteConfig } from "@ness/ui/lib/config";
-import { GithubIcon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
 import Link from "next/link";
 import * as React from "react";
 
