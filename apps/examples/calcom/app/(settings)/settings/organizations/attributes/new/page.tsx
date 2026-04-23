@@ -1,10 +1,10 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameFooter,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@nesscom/ui/components/card";
 import { ArrowLeftIcon } from "lucide-react";
 import Link from "next/link";
 import { NewAttributeFormFields } from "./new-attribute-form-fields";

@@ -1,4 +1,4 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import Link from "next/link";
 
 export function SiteCta() {

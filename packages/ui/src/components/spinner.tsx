@@ -1,4 +1,4 @@
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@nesscom/ui/lib/utils";
 import { Loader2Icon } from "lucide-react";
 import type React from "react";
 

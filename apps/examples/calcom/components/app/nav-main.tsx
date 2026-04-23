@@ -4,7 +4,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@ness/ui/components/collapsible";
+} from "@nesscom/ui/components/collapsible";
 import {
   Menu,
   MenuGroup,
@@ -12,8 +12,8 @@ import {
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
+} from "@nesscom/ui/components/menu";
+import { useMediaQuery } from "@nesscom/ui/hooks/use-media-query";
 import { ChevronRightIcon, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

@@ -135,7 +135,7 @@ export const styles: Registry["items"] = [
     devDependencies: ["tw-animate-css"],
     extends: "none",
     name: "style",
-    registryDependencies: ["utils", "@ness/ui", "@coss/fonts"],
+    registryDependencies: ["utils", "@nesscom/ui", "@coss/fonts"],
     type: "registry:style",
   },
   {

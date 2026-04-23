@@ -2,7 +2,7 @@
 
 import { LayerMask01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import { useTheme } from "next-themes";
 import * as React from "react";
 

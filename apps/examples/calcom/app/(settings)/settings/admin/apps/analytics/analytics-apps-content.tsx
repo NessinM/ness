@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Button } from "@ness/ui/components/button";
-import { Card, CardPanel } from "@ness/ui/components/card";
+} from "@nesscom/ui/components/alert-dialog";
+import { Button } from "@nesscom/ui/components/button";
+import { Card, CardPanel } from "@nesscom/ui/components/card";
 import {
   Dialog,
   DialogClose,
@@ -19,30 +19,30 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
+} from "@nesscom/ui/components/dialog";
 import {
   Empty,
   EmptyDescription,
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Input } from "@ness/ui/components/input";
+} from "@nesscom/ui/components/empty";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
+import { Input } from "@nesscom/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@ness/ui/components/input-group";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { Switch } from "@ness/ui/components/switch";
-import { toastManager } from "@ness/ui/components/toast";
+} from "@nesscom/ui/components/input-group";
+import { ScrollArea } from "@nesscom/ui/components/scroll-area";
+import { Switch } from "@nesscom/ui/components/switch";
+import { toastManager } from "@nesscom/ui/components/toast";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
+} from "@nesscom/ui/components/tooltip";
+import { useMediaQuery } from "@nesscom/ui/hooks/use-media-query";
 import {
   BarChart3Icon,
   CalendarIcon,

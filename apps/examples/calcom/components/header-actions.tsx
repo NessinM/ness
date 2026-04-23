@@ -4,8 +4,8 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { CommandDialogTrigger } from "@ness/ui/components/command";
+} from "@nesscom/ui/components/avatar";
+import { CommandDialogTrigger } from "@nesscom/ui/components/command";
 import { SearchIcon } from "lucide-react";
 import Link from "next/link";
 import type * as React from "react";

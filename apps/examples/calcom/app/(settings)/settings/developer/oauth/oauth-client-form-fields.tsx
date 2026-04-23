@@ -1,12 +1,16 @@
 "use client";
 
-import { Avatar, AvatarFallback } from "@ness/ui/components/avatar";
-import { Button } from "@ness/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { Input } from "@ness/ui/components/input";
-import { Label } from "@ness/ui/components/label";
-import { Switch } from "@ness/ui/components/switch";
-import { Textarea } from "@ness/ui/components/textarea";
+import { Avatar, AvatarFallback } from "@nesscom/ui/components/avatar";
+import { Button } from "@nesscom/ui/components/button";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@nesscom/ui/components/field";
+import { Input } from "@nesscom/ui/components/input";
+import { Label } from "@nesscom/ui/components/label";
+import { Switch } from "@nesscom/ui/components/switch";
+import { Textarea } from "@nesscom/ui/components/textarea";
 import { KeyIcon } from "lucide-react";
 
 export interface OAuthClientFormDefaults {

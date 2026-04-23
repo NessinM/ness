@@ -1,29 +1,29 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameFooter,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@nesscom/ui/components/card";
 import {
   Pagination,
   PaginationContent,
   PaginationItem,
   PaginationNext,
   PaginationPrevious,
-} from "@ness/ui/components/pagination";
+} from "@nesscom/ui/components/pagination";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@ness/ui/components/select";
-import { TooltipProvider } from "@ness/ui/components/tooltip";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/select";
+import { TooltipProvider } from "@nesscom/ui/components/tooltip";
+import { cn } from "@nesscom/ui/lib/utils";
 import {
   BanknoteIcon,
   CircleDashedIcon,

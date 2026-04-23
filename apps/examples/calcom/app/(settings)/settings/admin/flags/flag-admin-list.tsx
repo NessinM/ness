@@ -4,16 +4,16 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Button } from "@ness/ui/components/button";
+} from "@nesscom/ui/components/avatar";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Collapsible,
   CollapsiblePanel,
   CollapsibleTrigger,
-} from "@ness/ui/components/collapsible";
-import { Frame, FrameHeader, FramePanel } from "@ness/ui/components/frame";
-import { Input } from "@ness/ui/components/input";
-import { Label } from "@ness/ui/components/label";
+} from "@nesscom/ui/components/collapsible";
+import { Frame, FrameHeader, FramePanel } from "@nesscom/ui/components/frame";
+import { Input } from "@nesscom/ui/components/input";
+import { Label } from "@nesscom/ui/components/label";
 import {
   Sheet,
   SheetClose,
@@ -23,14 +23,14 @@ import {
   SheetPanel,
   SheetPopup,
   SheetTitle,
-} from "@ness/ui/components/sheet";
-import { Switch } from "@ness/ui/components/switch";
-import { toastManager } from "@ness/ui/components/toast";
+} from "@nesscom/ui/components/sheet";
+import { Switch } from "@nesscom/ui/components/switch";
+import { toastManager } from "@nesscom/ui/components/toast";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@nesscom/ui/components/tooltip";
 import { ChevronDownIcon, UsersIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import {

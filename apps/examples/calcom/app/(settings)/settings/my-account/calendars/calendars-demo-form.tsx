@@ -1,6 +1,10 @@
 "use client";
 
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@nesscom/ui/components/field";
 import {
   Select,
   SelectGroup,
@@ -9,7 +13,7 @@ import {
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@ness/ui/components/select";
+} from "@nesscom/ui/components/select";
 import { FieldGrid } from "@/components/particles/field-grid";
 
 const addEventsToGroups = [

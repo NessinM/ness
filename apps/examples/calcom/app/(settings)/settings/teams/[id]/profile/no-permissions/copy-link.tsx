@@ -1,13 +1,13 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { anchoredToastManager } from "@ness/ui/components/toast";
+import { Button } from "@nesscom/ui/components/button";
+import { anchoredToastManager } from "@nesscom/ui/components/toast";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
+} from "@nesscom/ui/components/tooltip";
+import { useCopyToClipboard } from "@nesscom/ui/hooks/use-copy-to-clipboard";
 import { CopyIcon } from "lucide-react";
 import { useRef } from "react";
 

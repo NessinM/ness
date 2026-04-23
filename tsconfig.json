@@ -10,7 +10,7 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "@ness/ui/*": ["packages/ui/src/*"]
+      "@nesscom/ui/*": ["packages/ui/src/*"]
     },
     "skipLibCheck": true,
     "strict": true,

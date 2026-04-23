@@ -1,15 +1,15 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Card, CardPanel } from "@ness/ui/components/card";
-import { Skeleton } from "@ness/ui/components/skeleton";
-import { toastManager } from "@ness/ui/components/toast";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Card, CardPanel } from "@nesscom/ui/components/card";
+import { Skeleton } from "@nesscom/ui/components/skeleton";
+import { toastManager } from "@nesscom/ui/components/toast";
 import {
   Tooltip,
   TooltipCreateHandle,
   TooltipPopup,
   TooltipProvider,
-} from "@ness/ui/components/tooltip";
+} from "@nesscom/ui/components/tooltip";
 import {
   ArmchairIcon,
   BanknoteIcon,

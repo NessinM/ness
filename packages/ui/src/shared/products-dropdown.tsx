@@ -1,13 +1,13 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@nesscom/ui/components/menu";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 

@@ -1,20 +1,27 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import { Button } from "@nesscom/ui/components/button";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@nesscom/ui/components/field";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@ness/ui/components/input-group";
-import { anchoredToastManager, toastManager } from "@ness/ui/components/toast";
+} from "@nesscom/ui/components/input-group";
+import {
+  anchoredToastManager,
+  toastManager,
+} from "@nesscom/ui/components/toast";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/tooltip";
+import { useCopyToClipboard } from "@nesscom/ui/hooks/use-copy-to-clipboard";
+import { cn } from "@nesscom/ui/lib/utils";
 import { CheckIcon, ClipboardIcon } from "lucide-react";
 import type * as React from "react";
 import { useRef } from "react";

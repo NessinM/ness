@@ -1,4 +1,4 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -7,7 +7,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@nesscom/ui/components/card";
 import { BookingThemeSection } from "@/app/(settings)/settings/my-account/appearance/appearance-form";
 import { CustomBrandColorsSection } from "@/app/(settings)/settings/my-account/appearance/custom-brand-colors-section";
 import {

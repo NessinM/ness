@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -11,21 +11,21 @@ import {
   DialogPopup,
   DialogTitle,
   DialogTrigger,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
+} from "@nesscom/ui/components/dialog";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
+import { Form } from "@nesscom/ui/components/form";
+import { Input } from "@nesscom/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupText,
   InputGroupTextarea,
-} from "@ness/ui/components/input-group";
+} from "@nesscom/ui/components/input-group";
 import {
   NumberField,
   NumberFieldInput,
-} from "@ness/ui/components/number-field";
-import { Toggle } from "@ness/ui/components/toggle";
+} from "@nesscom/ui/components/number-field";
+import { Toggle } from "@nesscom/ui/components/toggle";
 import { BoldIcon, ItalicIcon } from "lucide-react";
 
 export function AddEventTypeDialog({

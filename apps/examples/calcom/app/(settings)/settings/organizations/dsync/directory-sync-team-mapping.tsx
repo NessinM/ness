@@ -1,14 +1,14 @@
 "use client";
 
-import { Button, buttonVariants } from "@ness/ui/components/button";
-import { Group, GroupSeparator, GroupText } from "@ness/ui/components/group";
-import { Input } from "@ness/ui/components/input";
+import { Button, buttonVariants } from "@nesscom/ui/components/button";
+import { Group, GroupSeparator, GroupText } from "@nesscom/ui/components/group";
+import { Input } from "@nesscom/ui/components/input";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@ness/ui/components/popover";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/popover";
+import { cn } from "@nesscom/ui/lib/utils";
 import { PlusIcon, XIcon } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ListItem, ListItemContent } from "@/components/list-item";

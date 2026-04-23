@@ -1,12 +1,12 @@
 "use client";
 
-import { Field } from "@ness/ui/components/field";
-import { Fieldset } from "@ness/ui/components/fieldset";
+import { Field } from "@nesscom/ui/components/field";
+import { Fieldset } from "@nesscom/ui/components/fieldset";
 import {
   ToggleGroup,
   ToggleGroupItem,
   ToggleGroupSeparator,
-} from "@ness/ui/components/toggle-group";
+} from "@nesscom/ui/components/toggle-group";
 import { useCallback, useState } from "react";
 import { ImageCheckboxOption } from "@/components/particles";
 

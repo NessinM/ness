@@ -4,33 +4,37 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { Fieldset, FieldsetLegend } from "@ness/ui/components/fieldset";
-import { Input } from "@ness/ui/components/input";
+} from "@nesscom/ui/components/avatar";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@nesscom/ui/components/field";
+import { Fieldset, FieldsetLegend } from "@nesscom/ui/components/fieldset";
+import { Input } from "@nesscom/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
   InputGroupTextarea,
-} from "@ness/ui/components/input-group";
-import { Label } from "@ness/ui/components/label";
+} from "@nesscom/ui/components/input-group";
+import { Label } from "@nesscom/ui/components/label";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Toggle } from "@ness/ui/components/toggle";
+} from "@nesscom/ui/components/menu";
+import { Toggle } from "@nesscom/ui/components/toggle";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
+} from "@nesscom/ui/components/tooltip";
+import { useCopyToClipboard } from "@nesscom/ui/hooks/use-copy-to-clipboard";
 import {
   BoldIcon,
   CheckIcon,

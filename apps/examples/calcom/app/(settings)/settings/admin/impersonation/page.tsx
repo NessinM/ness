@@ -1,19 +1,19 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Card,
   CardFrame,
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { Field, FieldDescription } from "@ness/ui/components/field";
-import { Group } from "@ness/ui/components/group";
+} from "@nesscom/ui/components/card";
+import { Field, FieldDescription } from "@nesscom/ui/components/field";
+import { Group } from "@nesscom/ui/components/group";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
-} from "@ness/ui/components/input-group";
+} from "@nesscom/ui/components/input-group";
 import {
   AppHeader,
   AppHeaderContent,

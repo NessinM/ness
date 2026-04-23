@@ -1,10 +1,10 @@
 "use client";
 
 import type { SyntheticListenerMap } from "@dnd-kit/core/dist/hooks/utilities";
-import { mergeProps } from "@ness/ui/base-ui/merge-props";
-import { useRender } from "@ness/ui/base-ui/use-render";
-import { Button } from "@ness/ui/components/button";
-import { cn } from "@ness/ui/lib/utils";
+import { mergeProps } from "@nesscom/ui/base-ui/merge-props";
+import { useRender } from "@nesscom/ui/base-ui/use-render";
+import { Button } from "@nesscom/ui/components/button";
+import { cn } from "@nesscom/ui/lib/utils";
 import { GripVerticalIcon } from "lucide-react";
 import React, {
   type ComponentPropsWithoutRef,

@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { Calendar } from "@ness/ui/components/calendar";
+import { Button } from "@nesscom/ui/components/button";
+import { Calendar } from "@nesscom/ui/components/calendar";
 import {
   Card,
   CardFrame,
@@ -9,7 +9,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
+} from "@nesscom/ui/components/card";
 import {
   Combobox,
   ComboboxEmpty,
@@ -19,32 +19,36 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@ness/ui/components/combobox";
+} from "@nesscom/ui/components/combobox";
 import {
   Empty,
   EmptyDescription,
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
-import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
-import { FieldsetLegend } from "@ness/ui/components/fieldset";
-import { Group } from "@ness/ui/components/group";
+} from "@nesscom/ui/components/empty";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@nesscom/ui/components/field";
+import { FieldsetLegend } from "@nesscom/ui/components/fieldset";
+import { Group } from "@nesscom/ui/components/group";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupText,
-} from "@ness/ui/components/input-group";
+} from "@nesscom/ui/components/input-group";
 import {
   NumberField,
   NumberFieldInput,
-} from "@ness/ui/components/number-field";
+} from "@nesscom/ui/components/number-field";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@ness/ui/components/popover";
-import { SelectButton } from "@ness/ui/components/select";
+} from "@nesscom/ui/components/popover";
+import { SelectButton } from "@nesscom/ui/components/select";
 import { ExternalLinkIcon, FileTextIcon, SearchIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";

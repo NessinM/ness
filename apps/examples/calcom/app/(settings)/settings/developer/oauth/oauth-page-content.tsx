@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Button } from "@ness/ui/components/button";
-import { Card, CardPanel } from "@ness/ui/components/card";
+} from "@nesscom/ui/components/alert-dialog";
+import { Button } from "@nesscom/ui/components/button";
+import { Card, CardPanel } from "@nesscom/ui/components/card";
 import { PlusIcon } from "lucide-react";
 import { useState } from "react";
 import { EditOAuthClientDialog } from "./edit-oauth-client-dialog";

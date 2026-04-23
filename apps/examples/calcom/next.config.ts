@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  transpilePackages: ["@ness/ui"],
+  transpilePackages: ["@nesscom/ui"],
 };
 
 export default nextConfig;

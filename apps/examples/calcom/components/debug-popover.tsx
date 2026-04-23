@@ -1,12 +1,12 @@
 "use client";
 
-import { Label } from "@ness/ui/components/label";
+import { Label } from "@nesscom/ui/components/label";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@ness/ui/components/popover";
-import { Switch } from "@ness/ui/components/switch";
+} from "@nesscom/ui/components/popover";
+import { Switch } from "@nesscom/ui/components/switch";
 import type * as React from "react";
 import { useDebug } from "./debug-context";
 

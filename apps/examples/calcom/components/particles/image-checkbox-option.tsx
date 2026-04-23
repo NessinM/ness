@@ -1,8 +1,8 @@
 "use client";
 
-import { Checkbox } from "@ness/ui/components/checkbox";
-import { CheckboxGroup } from "@ness/ui/components/checkbox-group";
-import { FieldItem, FieldLabel } from "@ness/ui/components/field";
+import { Checkbox } from "@nesscom/ui/components/checkbox";
+import { CheckboxGroup } from "@nesscom/ui/components/checkbox-group";
+import { FieldItem, FieldLabel } from "@nesscom/ui/components/field";
 import Image from "next/image";
 
 export interface ImageCheckboxOptionItem {

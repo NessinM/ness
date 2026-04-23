@@ -1,7 +1,7 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -11,10 +11,10 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
+} from "@nesscom/ui/components/dialog";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
+import { Form } from "@nesscom/ui/components/form";
+import { Input } from "@nesscom/ui/components/input";
 import { CopyableField } from "./copyable-field";
 import { OAuthClientFormFields } from "./oauth-client-form-fields";
 import type { OAuthClientItem } from "./oauth-clients-list";

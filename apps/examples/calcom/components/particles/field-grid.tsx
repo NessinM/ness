@@ -1,4 +1,4 @@
-import { cn } from "@ness/ui/lib/utils";
+import { cn } from "@nesscom/ui/lib/utils";
 
 function FieldGrid({ className, ...props }: React.ComponentProps<"div">) {
   return (

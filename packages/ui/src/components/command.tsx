@@ -11,8 +11,8 @@ import {
   AutocompleteItem,
   AutocompleteList,
   AutocompleteSeparator,
-} from "@ness/ui/components/autocomplete";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/autocomplete";
+import { cn } from "@nesscom/ui/lib/utils";
 import { SearchIcon } from "lucide-react";
 import type * as React from "react";
 

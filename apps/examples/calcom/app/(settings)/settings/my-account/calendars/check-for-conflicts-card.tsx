@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Button } from "@ness/ui/components/button";
+} from "@nesscom/ui/components/alert-dialog";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -18,15 +18,15 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@ness/ui/components/card";
-import { Field, FieldLabel } from "@ness/ui/components/field";
+} from "@nesscom/ui/components/card";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { Switch } from "@ness/ui/components/switch";
+} from "@nesscom/ui/components/menu";
+import { Switch } from "@nesscom/ui/components/switch";
 import { EllipsisIcon, PlusIcon, Trash2Icon } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";

@@ -1,8 +1,8 @@
 "use client";
 
 import { Toast } from "@base-ui/react/toast";
-import { buttonVariants } from "@ness/ui/components/button";
-import { cn } from "@ness/ui/lib/utils";
+import { buttonVariants } from "@nesscom/ui/components/button";
+import { cn } from "@nesscom/ui/lib/utils";
 import {
   CircleAlertIcon,
   CircleCheckIcon,

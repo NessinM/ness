@@ -11252,7 +11252,7 @@
       "name": "style",
       "registryDependencies": [
         "utils",
-        "@ness/ui",
+        "@nesscom/ui",
         "@coss/fonts"
       ],
       "type": "registry:style"

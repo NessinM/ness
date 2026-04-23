@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -10,19 +10,19 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Input } from "@ness/ui/components/input";
+} from "@nesscom/ui/components/dialog";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
+import { Input } from "@nesscom/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@ness/ui/components/input-group";
+} from "@nesscom/ui/components/input-group";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@nesscom/ui/components/tooltip";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 

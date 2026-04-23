@@ -1,5 +1,5 @@
-import { CodeBlock } from "@ness/ui/shared/code-block";
-import { PageHeader, PageHeaderHeading } from "@ness/ui/shared/page-header";
+import { CodeBlock } from "@nesscom/ui/shared/code-block";
+import { PageHeader, PageHeaderHeading } from "@nesscom/ui/shared/page-header";
 
 export default async function Page() {
   const code = `"dependencies": {

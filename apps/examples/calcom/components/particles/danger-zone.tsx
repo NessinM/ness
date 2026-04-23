@@ -1,11 +1,11 @@
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   CardFrame,
   CardFrameDescription,
   CardFrameFooter,
   CardFrameHeader,
   CardFrameTitle,
-} from "@ness/ui/components/card";
+} from "@nesscom/ui/components/card";
 
 interface DangerZoneProps {
   description: string;

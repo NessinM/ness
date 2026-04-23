@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@ness/ui/components/alert-dialog";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+} from "@nesscom/ui/components/alert-dialog";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Empty,
   EmptyContent,
@@ -18,18 +18,18 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@ness/ui/components/empty";
+} from "@nesscom/ui/components/empty";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@nesscom/ui/components/menu";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
+} from "@nesscom/ui/components/tooltip";
 import { EllipsisIcon, PencilIcon, Trash2Icon, VideoIcon } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";

@@ -4,7 +4,7 @@ import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@ness/ui/components/input-group";
+} from "@nesscom/ui/components/input-group";
 import { SearchIcon } from "lucide-react";
 import type * as React from "react";
 import { useState } from "react";

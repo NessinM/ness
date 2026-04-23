@@ -1,7 +1,7 @@
 "use client";
 
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Menu,
   MenuGroup,
@@ -9,7 +9,7 @@ import {
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@nesscom/ui/components/menu";
 import { ListFilterIcon, PlusIcon } from "lucide-react";
 import type * as React from "react";
 import type { FilterField } from "./filter-chip-types";

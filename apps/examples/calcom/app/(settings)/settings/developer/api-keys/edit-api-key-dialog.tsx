@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -9,10 +9,10 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
+} from "@nesscom/ui/components/dialog";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
+import { Form } from "@nesscom/ui/components/form";
+import { Input } from "@nesscom/ui/components/input";
 import type { ApiKeyItem } from "./api-keys-list";
 
 interface EditApiKeyDialogProps {

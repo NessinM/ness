@@ -2,14 +2,14 @@
 
 import { Copy01Icon, Tick02Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/tooltip";
+import { useCopyToClipboard } from "@nesscom/ui/hooks/use-copy-to-clipboard";
+import { cn } from "@nesscom/ui/lib/utils";
 import type * as React from "react";
 
 export function CopyButton({

@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
-import { cn } from "@ness/ui/lib/utils";
+import { Button } from "@nesscom/ui/components/button";
+import { cn } from "@nesscom/ui/lib/utils";
 import type * as React from "react";
 
 export function FilterBarActions({

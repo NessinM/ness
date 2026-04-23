@@ -1,7 +1,7 @@
 "use client";
 
-import { useAutocompleteFilter } from "@ness/ui/components/autocomplete";
-import { Button } from "@ness/ui/components/button";
+import { useAutocompleteFilter } from "@nesscom/ui/components/autocomplete";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Command,
   CommandCollection,
@@ -18,13 +18,13 @@ import {
   CommandPanel,
   CommandSeparator,
   CommandShortcut,
-} from "@ness/ui/components/command";
-import { EmptyMedia } from "@ness/ui/components/empty";
-import { Input } from "@ness/ui/components/input";
-import { Kbd, KbdGroup } from "@ness/ui/components/kbd";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { Skeleton } from "@ness/ui/components/skeleton";
-import { Spinner } from "@ness/ui/components/spinner";
+} from "@nesscom/ui/components/command";
+import { EmptyMedia } from "@nesscom/ui/components/empty";
+import { Input } from "@nesscom/ui/components/input";
+import { Kbd, KbdGroup } from "@nesscom/ui/components/kbd";
+import { ScrollArea } from "@nesscom/ui/components/scroll-area";
+import { Skeleton } from "@nesscom/ui/components/skeleton";
+import { Spinner } from "@nesscom/ui/components/spinner";
 import {
   ArrowDownIcon,
   ArrowLeftIcon,

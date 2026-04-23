@@ -4,9 +4,9 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
+} from "@nesscom/ui/components/avatar";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -15,8 +15,8 @@ import {
   ComboboxList,
   ComboboxPopup,
   ComboboxTrigger,
-} from "@ness/ui/components/combobox";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/combobox";
+import { cn } from "@nesscom/ui/lib/utils";
 import { ChevronsUpDownIcon, SearchIcon } from "lucide-react";
 import type * as React from "react";
 import { useEffect, useRef, useState } from "react";

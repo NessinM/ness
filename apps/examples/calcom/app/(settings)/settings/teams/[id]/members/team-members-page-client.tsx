@@ -4,11 +4,11 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@ness/ui/components/avatar";
-import { Badge } from "@ness/ui/components/badge";
-import { Button } from "@ness/ui/components/button";
-import { CardFrame } from "@ness/ui/components/card";
-import { Checkbox } from "@ness/ui/components/checkbox";
+} from "@nesscom/ui/components/avatar";
+import { Badge } from "@nesscom/ui/components/badge";
+import { Button } from "@nesscom/ui/components/button";
+import { CardFrame } from "@nesscom/ui/components/card";
+import { Checkbox } from "@nesscom/ui/components/checkbox";
 import {
   Combobox,
   ComboboxCollection,
@@ -21,14 +21,14 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@ness/ui/components/combobox";
-import { Group, GroupSeparator } from "@ness/ui/components/group";
+} from "@nesscom/ui/components/combobox";
+import { Group, GroupSeparator } from "@nesscom/ui/components/group";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@ness/ui/components/input-group";
-import { Label } from "@ness/ui/components/label";
+} from "@nesscom/ui/components/input-group";
+import { Label } from "@nesscom/ui/components/label";
 import {
   Menu,
   MenuGroup,
@@ -37,7 +37,7 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@ness/ui/components/menu";
+} from "@nesscom/ui/components/menu";
 import {
   Table,
   TableBody,
@@ -45,7 +45,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@ness/ui/components/table";
+} from "@nesscom/ui/components/table";
 import {
   type ColumnDef,
   flexRender,

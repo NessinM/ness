@@ -2,8 +2,8 @@
 
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { Separator } from "@ness/ui/components/separator";
-import { cn } from "@ness/ui/lib/utils";
+import { Separator } from "@nesscom/ui/components/separator";
+import { cn } from "@nesscom/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type * as React from "react";
 

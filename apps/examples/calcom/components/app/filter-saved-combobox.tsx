@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -9,16 +9,16 @@ import {
   ComboboxList,
   ComboboxPopup,
   ComboboxTrigger,
-} from "@ness/ui/components/combobox";
-import { Group, GroupSeparator } from "@ness/ui/components/group";
+} from "@nesscom/ui/components/combobox";
+import { Group, GroupSeparator } from "@nesscom/ui/components/group";
 import {
   Menu,
   MenuItem,
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@ness/ui/components/menu";
-import { SelectButton } from "@ness/ui/components/select";
+} from "@nesscom/ui/components/menu";
+import { SelectButton } from "@nesscom/ui/components/select";
 import {
   ChevronsUpDownIcon,
   CopyIcon,

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ness/ui/components/button";
+import { Button } from "@nesscom/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -10,7 +10,7 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@ness/ui/components/combobox";
+} from "@nesscom/ui/components/combobox";
 import {
   Dialog,
   DialogClose,
@@ -19,11 +19,11 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@ness/ui/components/dialog";
-import { Field, FieldLabel } from "@ness/ui/components/field";
-import { Form } from "@ness/ui/components/form";
-import { Input } from "@ness/ui/components/input";
-import { SelectButton } from "@ness/ui/components/select";
+} from "@nesscom/ui/components/dialog";
+import { Field, FieldLabel } from "@nesscom/ui/components/field";
+import { Form } from "@nesscom/ui/components/form";
+import { Input } from "@nesscom/ui/components/input";
+import { SelectButton } from "@nesscom/ui/components/select";
 import { SearchIcon } from "lucide-react";
 import { type FormEvent, useEffect, useState } from "react";
 import type { DelegationCredentialItem } from "./delegation-credential-types";

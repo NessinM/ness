@@ -2,25 +2,25 @@
 
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
-import { Button } from "@ness/ui/components/button";
-import { Input } from "@ness/ui/components/input";
-import { ScrollArea } from "@ness/ui/components/scroll-area";
-import { Separator } from "@ness/ui/components/separator";
+import { Button } from "@nesscom/ui/components/button";
+import { Input } from "@nesscom/ui/components/input";
+import { ScrollArea } from "@nesscom/ui/components/scroll-area";
+import { Separator } from "@nesscom/ui/components/separator";
 import {
   Sheet,
   SheetDescription,
   SheetHeader,
   SheetPopup,
   SheetTitle,
-} from "@ness/ui/components/sheet";
-import { Skeleton } from "@ness/ui/components/skeleton";
+} from "@nesscom/ui/components/sheet";
+import { Skeleton } from "@nesscom/ui/components/skeleton";
 import {
   Tooltip,
   TooltipPopup,
   TooltipTrigger,
-} from "@ness/ui/components/tooltip";
-import { useMediaQuery } from "@ness/ui/hooks/use-media-query";
-import { cn } from "@ness/ui/lib/utils";
+} from "@nesscom/ui/components/tooltip";
+import { useMediaQuery } from "@nesscom/ui/hooks/use-media-query";
+import { cn } from "@nesscom/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 import * as React from "react";
