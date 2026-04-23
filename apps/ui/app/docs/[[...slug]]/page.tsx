@@ -58,7 +58,7 @@ export default async function Page(props: {
   const toc = doc.toc;
   const rawContent = await readFile(
     resolve(process.cwd(), "content/docs", page.slugs.join("/") + ".mdx"),
-    "utf-8"
+    "utf-8",
   );
 
   return (
