@@ -59,9 +59,24 @@ export default async function Page(props: {
   const toc = doc.toc;
   const possiblePaths = [
     resolve(process.cwd(), "content/docs", page.slugs.join("/") + ".mdx"),
-    resolve(process.cwd(), "content/docs", "(root)", page.slugs.join("/") + ".mdx"),
-    resolve(process.cwd(), "content/docs", "components", page.slugs.join("/") + ".mdx"),
-    resolve(process.cwd(), "content/docs", "hooks", page.slugs.join("/") + ".mdx"),
+    resolve(
+      process.cwd(),
+      "content/docs",
+      "(root)",
+      page.slugs.join("/") + ".mdx",
+    ),
+    resolve(
+      process.cwd(),
+      "content/docs",
+      "components",
+      page.slugs.join("/") + ".mdx",
+    ),
+    resolve(
+      process.cwd(),
+      "content/docs",
+      "hooks",
+      page.slugs.join("/") + ".mdx",
+    ),
   ];
   let rawContent = "";
   for (const p of possiblePaths) {
