@@ -3,7 +3,7 @@ title: Get Started
 description: A quick guide to adding your first component.
 ---
 
-This guide provides the essentials for adding **coss ui** components to your React application.
+This guide provides the essentials for adding **creantly ui** components to your React application.
 
 ## Prerequisites
 
@@ -19,10 +19,10 @@ Each component page provides a command to add it to your project automatically. 
 
 ### New Project Setup (Recommended)
 
-For new projects, use the **coss style** preset to initialize everything in one command:
+For new projects, use the **creantly style** preset to initialize everything in one command:
 
 ```bash
-npx shadcn@latest init @coss/style
+npx shadcn@latest init @creantly/style
 ```
 
 This installs all UI components, the neutral color system, sidebar variables, and base styles. It also installs **Inter** (`--font-sans`, `--font-heading`) and **Geist Mono** (`--font-mono`) as default fonts, automatically configured in your `layout.tsx`.
@@ -38,13 +38,13 @@ npx shadcn@latest add @creantly/ui
 This adds all UI primitives (button, card, avatar, dialog, tabs, and more). For the full theme including colors, sidebar, and fonts:
 
 ```bash
-npx shadcn@latest add @coss/style
+npx shadcn@latest add @creantly/style
 ```
 
 Or add only the color tokens:
 
 ```bash
-npx shadcn@latest add @creantly/ui @coss/colors-neutral
+npx shadcn@latest add @creantly/ui @creantly/colors-neutral
 ```
 
 See the [Styling](/ui/docs/styling) guide for more details.
@@ -59,7 +59,7 @@ See the [Styling](/ui/docs/styling) guide for more details.
 
 ## Styling
 
-Components are styled with the design token system we use at **Cal.com**, which is defined by CSS variables and implemented with Tailwind CSS.
+Components are styled with the design token system we use at **Hookra.com**, which is defined by CSS variables and implemented with Tailwind CSS.
 
 The variables are the same as shadcn/ui, and are fully customizable. You can modify them in your global stylesheet (e.g., `app/globals.css`) to match your design system.
 
@@ -74,13 +74,13 @@ We've introduced a few additional tokens to provide more granular control:
 
 ## Fonts
 
-coss components use three CSS custom properties for typography:
+creantly components use three CSS custom properties for typography:
 
 - `--font-sans` — Body text, buttons, labels, and most UI elements
 - `--font-mono` — Code blocks, `<kbd>`, monospace text
 - `--font-heading` — Dialog and AlertDialog titles (defaults to Inter, same as `--font-sans`)
 
-When you use `@coss/style`, `@coss/fonts` is installed automatically — Inter for `--font-sans` and `--font-heading`, Geist Mono for `--font-mono` — all wired in your `layout.tsx`.
+When you use `@creantly/style`, `@creantly/fonts` is installed automatically — Inter for `--font-sans` and `--font-heading`, Geist Mono for `--font-mono` — all wired in your `layout.tsx`.
 
 ### Custom fonts
 
@@ -95,7 +95,7 @@ const interHeading = Inter({ variable: "--font-heading", subsets: ["latin"] });
 const jetbrainsMono = JetBrains_Mono({ variable: "--font-mono", subsets: ["latin"] });
 ```
 
-**Note:** Next.js starters default to variable names like `--font-geist-sans`, which don't match coss's expected `--font-sans`. If fonts appear broken after setup, check that the variable names match.
+**Note:** Next.js starters default to variable names like `--font-geist-sans`, which don't match creantly's expected `--font-sans`. If fonts appear broken after setup, check that the variable names match.
 
 ## Primitive exports
 
@@ -124,6 +124,6 @@ For developers migrating from **Radix UI**, many of our **UI primitives** includ
 
 We structure the documentation to make the components **AI-friendly**, so language models can understand, reason about, and modify them. To support this, we include:
 
-- **[Agent Skills](/ui/docs/skills)** — Install coss knowledge directly into your AI assistant with `npx skills add cosscom/coss`. Covers all 53 primitives, styling conventions, migration patterns, and particle examples.
+- **[Agent Skills](/ui/docs/skills)** — Install creantly knowledge directly into your AI assistant with `npx skills add NessinM/creantly`. Covers all 53 primitives, styling conventions, migration patterns, and particle examples.
 - A [llms.txt](/ui/llms.txt) file that provides a map of the documentation and component structure for your AI agent.
 - A **Copy Markdown** button on every page, so you can easily share content or feed it to your AI workflows.

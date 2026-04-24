@@ -1,4 +1,4 @@
-# coss Command
+# creantly Command
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/command
+npx shadcn@latest add @creantly/command
 ```
 
 Manual deps from docs:
@@ -76,7 +76,7 @@ const items = [
 </CommandDialog>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `CommandDialogPopup` → Base UI `Dialog.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

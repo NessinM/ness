@@ -53,20 +53,20 @@ export type ConferencingApp = {
 
 export const initialConferencingApps: ConferencingApp[] = [
   {
-    alt: "Cal Video",
+    alt: "Hookra Video",
     description:
-      "Cal Video is the in-house web-based video conferencing platform powered by Daily.co, which is minimalistic and lightweight, but has most of the features you need.",
+      "Hookra Video is the in-house web-based video conferencing platform powered by Daily.co, which is minimalistic and lightweight, but has most of the features you need.",
     id: "cal-video",
     isDefault: true,
-    logo: "https://app.cal.com/app-store/dailyvideo/icon.svg",
-    name: "Cal Video",
+    logo: "https://app.hookra.com/app-store/dailyvideo/icon.svg",
+    name: "Hookra Video",
   },
   {
     alt: "Google Meet",
     description:
       "Google Meet is Google's web-based video conferencing platform, designed to compete with major conferencing platforms.",
     id: "google-meet",
-    logo: "https://app.cal.com/app-store/googlevideo/logo.webp",
+    logo: "https://app.hookra.com/app-store/googlevideo/logo.webp",
     name: "Google Meet",
   },
 ];

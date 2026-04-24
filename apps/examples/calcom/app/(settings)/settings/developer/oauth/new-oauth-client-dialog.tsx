@@ -74,7 +74,7 @@ function NewOAuthClientDialogRoot({
               <DialogTitle>Create OAuth client</DialogTitle>
               <DialogDescription>
                 Create a new OAuth client to allow third-party applications to
-                access Cal.com on behalf of your users.
+                access Hookra.com on behalf of your users.
               </DialogDescription>
             </DialogHeader>
             <Form className="contents" onSubmit={handleSubmit}>

@@ -7,11 +7,11 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/calendar",
-    "@coss/combobox",
-    "@coss/field",
-    "@coss/popover"
+    "@creantly/button",
+    "@creantly/calendar",
+    "@creantly/combobox",
+    "@creantly/field",
+    "@creantly/popover"
   ],
   "files": [
     {

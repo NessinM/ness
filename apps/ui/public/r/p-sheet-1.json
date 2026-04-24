@@ -3,11 +3,11 @@
   "name": "p-sheet-1",
   "description": "Basic sheet",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/sheet"
+    "@creantly/button",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input",
+    "@creantly/sheet"
   ],
   "files": [
     {

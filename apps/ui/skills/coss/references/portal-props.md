@@ -1,6 +1,6 @@
 # Portal forwarding (`portalProps`)
 
-Several composed coss primitives wrap Base UI **`Portal`** inside `*Popup` (or dialog-style) components, and toast exposes the same for **`ToastProvider`** / **`AnchoredToastProvider`**. Those surfaces accept an optional **`portalProps`** object, which is spread onto the internal `Portal`.
+Several composed creantly primitives wrap Base UI **`Portal`** inside `*Popup` (or dialog-style) components, and toast exposes the same for **`ToastProvider`** / **`AnchoredToastProvider`**. Those surfaces accept an optional **`portalProps`** object, which is spread onto the internal `Portal`.
 
 Use it when you need portal-level behavior from Base UI, for example:
 

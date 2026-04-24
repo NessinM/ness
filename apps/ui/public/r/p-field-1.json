@@ -3,8 +3,8 @@
   "name": "p-field-1",
   "description": "Field with description",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/input"
+    "@creantly/field",
+    "@creantly/input"
   ],
   "files": [
     {

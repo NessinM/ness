@@ -11,10 +11,10 @@ import { SiteHeader } from "@/components/site-header";
 
 export const metadata: Metadata = {
   description:
-    "coss ui is a collection of accessible, and composable React components. Built on top of Base UI and styled with Tailwind CSS,",
-  metadataBase: new URL("https://coss.com"),
+    "creantly ui is a collection of accessible, and composable React components. Built on top of Base UI and styled with Tailwind CSS,",
+  metadataBase: new URL("https://creantly.com"),
   title:
-    "coss ui - A new, modern UI component library built on top of Base UI. Built for developers and AI.",
+    "creantly ui - A new, modern UI component library built on top of Base UI. Built for developers and AI.",
 };
 
 export default function RootLayout({

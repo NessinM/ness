@@ -3,7 +3,7 @@
   "name": "p-button-10",
   "description": "Large button",
   "registryDependencies": [
-    "@coss/button"
+    "@creantly/button"
   ],
   "files": [
     {

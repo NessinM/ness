@@ -1,4 +1,4 @@
-# coss Pagination
+# creantly Pagination
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/pagination
+npx shadcn@latest add @creantly/pagination
 ```
 
 Manual deps from docs:
@@ -52,7 +52,7 @@ import {
 </Pagination>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

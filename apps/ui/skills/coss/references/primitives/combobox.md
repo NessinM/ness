@@ -1,4 +1,4 @@
-# coss Combobox
+# creantly Combobox
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/combobox
+npx shadcn@latest add @creantly/combobox
 ```
 
 Manual deps from docs:
@@ -66,7 +66,7 @@ const items = [
 
 For form-bound comboboxes, prefer `Field` composition (`Field` + `FieldLabel` + `FieldError`) instead of standalone controls.
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `ComboboxPopup` → Base UI `Combobox.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

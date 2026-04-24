@@ -1,4 +1,4 @@
-# coss Spinner
+# creantly Spinner
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/spinner
+npx shadcn@latest add @creantly/spinner
 ```
 
 Manual deps from docs:
@@ -32,7 +32,7 @@ import { Spinner } from "@/components/ui/spinner"
 </div>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

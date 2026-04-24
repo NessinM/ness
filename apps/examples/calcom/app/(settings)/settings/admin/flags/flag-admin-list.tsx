@@ -154,7 +154,7 @@ const FEATURE_FLAGS: FeatureFlag[] = [
     type: "Experiment",
   },
   {
-    description: "Show log-in overlay on Cal Video",
+    description: "Show log-in overlay on Hookra Video",
     enabled: false,
     slug: "cal-video-log-in-overlay",
     type: "Experiment",
@@ -207,42 +207,42 @@ const USERS: AssignableUser[] = [
   {
     avatarUrl:
       "https://pbs.twimg.com/profile_images/1994776674391457792/7utKOMi6_400x400.jpg",
-    email: "pasquale@cal.com",
+    email: "pasquale@hookra.com",
     id: "usr_pasquale",
     name: "Pasquale Vitiello",
   },
   {
-    email: "margaret@cal.com",
+    email: "margaret@hookra.com",
     id: "usr_margaret",
     name: "Margaret Welsh",
   },
   {
-    email: "brian@cal.com",
+    email: "brian@hookra.com",
     id: "usr_brian",
     name: "Brian Smith",
   },
   {
-    email: "anna@cal.com",
+    email: "anna@hookra.com",
     id: "usr_anna",
     name: "Anna Taylor",
   },
   {
-    email: "sofia@cal.com",
+    email: "sofia@hookra.com",
     id: "usr_sofia",
     name: "Sofia Rodriguez",
   },
   {
-    email: "david@cal.com",
+    email: "david@hookra.com",
     id: "usr_david",
     name: "David Chen",
   },
   {
-    email: "elena@cal.com",
+    email: "elena@hookra.com",
     id: "usr_elena",
     name: "Elena Rossi",
   },
   {
-    email: "james@cal.com",
+    email: "james@hookra.com",
     id: "usr_james",
     name: "James Lee",
   },

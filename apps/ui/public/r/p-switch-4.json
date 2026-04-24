@@ -3,8 +3,8 @@
   "name": "p-switch-4",
   "description": "Switch card",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/switch"
+    "@creantly/label",
+    "@creantly/switch"
   ],
   "files": [
     {

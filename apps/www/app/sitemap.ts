@@ -2,14 +2,14 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: "https://coss.com" },
-    { url: "https://coss.com/scheduling" },
-    { url: "https://coss.com/calendar" },
-    { url: "https://coss.com/email" },
-    { url: "https://coss.com/sms" },
-    { url: "https://coss.com/video" },
-    { url: "https://coss.com/payments" },
-    { url: "https://coss.com/notifications" },
-    { url: "https://coss.com/auth" },
+    { url: "https://creantly.com" },
+    { url: "https://creantly.com/scheduling" },
+    { url: "https://creantly.com/calendar" },
+    { url: "https://creantly.com/email" },
+    { url: "https://creantly.com/sms" },
+    { url: "https://creantly.com/video" },
+    { url: "https://creantly.com/payments" },
+    { url: "https://creantly.com/notifications" },
+    { url: "https://creantly.com/auth" },
   ];
 }

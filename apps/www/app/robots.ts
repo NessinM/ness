@@ -8,9 +8,9 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
     },
     sitemap: [
-      "https://coss.com/sitemap.xml",
-      "https://coss.com/origin/sitemap.xml",
-      "https://coss.com/ui/sitemap.xml",
+      "https://creantly.com/sitemap.xml",
+      "https://creantly.com/origin/sitemap.xml",
+      "https://creantly.com/ui/sitemap.xml",
     ],
   };
 }

@@ -1,4 +1,4 @@
-# coss Preview Card
+# creantly Preview Card
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/preview-card
+npx shadcn@latest add @creantly/preview-card
 ```
 
 Manual deps from docs:
@@ -37,7 +37,7 @@ import {
 </PreviewCard>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `PreviewCardPopup` → Base UI `PreviewCard.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

@@ -1,4 +1,4 @@
-# coss Tooltip
+# creantly Tooltip
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/tooltip
+npx shadcn@latest add @creantly/tooltip
 ```
 
 Manual deps from docs:
@@ -46,7 +46,7 @@ import {
 </Tooltip>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `TooltipPopup` → Base UI `Tooltip.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

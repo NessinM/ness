@@ -1,4 +1,4 @@
-# coss Sheet
+# creantly Sheet
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/sheet
+npx shadcn@latest add @creantly/sheet
 ```
 
 Manual deps from docs:
@@ -60,7 +60,7 @@ import {
 </Sheet>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `SheetPopup` → Base UI `Dialog.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

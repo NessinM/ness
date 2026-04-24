@@ -116,7 +116,7 @@ export function CommandMenu({
       if (item.isComponent) {
         const componentName = item.url.split("/").pop();
         setSelectedType("component");
-        const registryItem = `@coss/${componentName}`;
+        const registryItem = `@creantly/${componentName}`;
         let cmd: string;
         switch (packageManager) {
           case "pnpm":

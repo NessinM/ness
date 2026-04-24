@@ -1,4 +1,4 @@
-# coss Dialog
+# creantly Dialog
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/dialog
+npx shadcn@latest add @creantly/dialog
 ```
 
 Manual deps from docs:
@@ -57,7 +57,7 @@ import {
 </Dialog>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `DialogPopup` → Base UI `Dialog.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 - **Section structure invariant**: keep `DialogHeader`, `DialogPanel`, and `DialogFooter` as direct sections in `DialogPopup` to preserve built-in layout/styling behavior.
@@ -79,7 +79,7 @@ import {
 - Putting large body content outside `DialogPanel` when scrolling is needed.
 - Missing explicit button `type` inside dialog forms/actions.
 - Using uncontrolled dialog patterns when the flow requires cross-component state coordination.
-- Using non-coss composition APIs without verifying docs.
+- Using non-creantly composition APIs without verifying docs.
 
 ## Useful particle references
 

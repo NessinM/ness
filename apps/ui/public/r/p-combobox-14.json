@@ -6,7 +6,7 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/combobox"
+    "@creantly/combobox"
   ],
   "files": [
     {

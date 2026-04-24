@@ -1,4 +1,4 @@
-# coss Menu
+# creantly Menu
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/menu
+npx shadcn@latest add @creantly/menu
 ```
 
 Manual deps and theme var from docs:
@@ -23,7 +23,7 @@ Manual deps and theme var from docs:
 npm install @base-ui/react
 ```
 
-Also include the destructive foreground CSS variable snippet from the coss menu docs when doing manual setup.
+Also include the destructive foreground CSS variable snippet from the creantly menu docs when doing manual setup.
 
 ## Canonical imports
 
@@ -61,7 +61,7 @@ import {
 
 Use popup positioning props like `align` / `sideOffset` only when a layout needs explicit tuning.
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `MenuPopup` → Base UI `Menu.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 - Use `MenuTrigger render={<Button ... />}` as the default trigger composition.

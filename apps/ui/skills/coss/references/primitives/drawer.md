@@ -1,4 +1,4 @@
-# coss Drawer
+# creantly Drawer
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/drawer
+npx shadcn@latest add @creantly/drawer
 ```
 
 Manual deps from docs:
@@ -68,7 +68,7 @@ import {
 </Drawer>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `DrawerPopup` → Base UI `Drawer.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

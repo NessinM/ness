@@ -1,4 +1,4 @@
-# coss Popover
+# creantly Popover
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/popover
+npx shadcn@latest add @creantly/popover
 ```
 
 Manual deps from docs:
@@ -50,7 +50,7 @@ import {
 </Popover>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `PopoverPopup` → Base UI `Popover.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 - **Form-in-popover**: use `PopoverPopup` as a lightweight form container (for example feedback forms with `Form` + `Field` + `Textarea`).
@@ -62,7 +62,7 @@ import {
 ## Common pitfalls
 
 - Treating Popover as a modal replacement when the flow needs full modal behavior (use Dialog/AlertDialog instead).
-- Forgetting `render` composition on trigger/close when using coss buttons.
+- Forgetting `render` composition on trigger/close when using creantly buttons.
 - Missing accessible names on icon-only triggers or close controls.
 - Using detached trigger handles without stable payload/content mapping.
 - Copying Tooltip patterns directly without checking `tooltipStyle` and popover semantics.

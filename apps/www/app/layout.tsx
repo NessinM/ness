@@ -8,9 +8,9 @@ import { ThemeProvider } from "@creantly/ui/shared/theme-provider";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  description: "coss.com - the everything but AI company",
-  metadataBase: new URL("https://coss.com"),
-  title: "coss.com",
+  description: "creantly.com - the everything but AI company",
+  metadataBase: new URL("https://creantly.com"),
+  title: "creantly.com",
 };
 
 export default function RootLayout({

@@ -3,8 +3,8 @@
   "name": "p-switch-2",
   "description": "Disabled switch",
   "registryDependencies": [
-    "@coss/label",
-    "@coss/switch"
+    "@creantly/label",
+    "@creantly/switch"
   ],
   "files": [
     {

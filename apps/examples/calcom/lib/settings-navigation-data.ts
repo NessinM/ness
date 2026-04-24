@@ -152,7 +152,7 @@ export const orgSettingsItems: SettingsNavItem[] = [
       {
         external: true,
         title: "API Docs",
-        url: "https://cal.com/docs/api-reference/v2",
+        url: "https://hookra.com/docs/api-reference/v2",
       },
       { title: "Features", url: "/settings/organizations/features" },
       {
@@ -166,7 +166,7 @@ export const orgSettingsItems: SettingsNavItem[] = [
       { title: "Billing", url: "/settings/organizations/billing" },
       { title: "Plans", url: "/settings/organizations/plans" },
     ],
-    title: "Cal.com",
+    title: "Hookra.com",
     url: "/settings/organizations",
   },
 ];

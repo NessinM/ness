@@ -5,9 +5,9 @@ export const fonts: Registry["items"] = [
     name: "fonts",
     type: "registry:ui",
     registryDependencies: [
-      "@coss/font-sans",
-      "@coss/font-heading",
-      "@coss/font-mono",
+      "@creantly/font-sans",
+      "@creantly/font-heading",
+      "@creantly/font-mono",
     ],
     files: [],
   },

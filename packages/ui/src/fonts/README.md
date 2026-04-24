@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
 
 ## Available Fonts
 
-- `fontSans` - Cal Sans UI variable font (supports multiple weights and modes)
-- `fontHeading` - Cal Sans Regular font
+- `fontSans` - Hookra Sans UI variable font (supports multiple weights and modes)
+- `fontHeading` - Hookra Sans Regular font
 
 ## Adding New Fonts
 

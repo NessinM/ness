@@ -1,4 +1,4 @@
-# coss Card
+# creantly Card
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/card
+npx shadcn@latest add @creantly/card
 ```
 
 Manual deps from docs:
@@ -43,7 +43,7 @@ import {
 </Card>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

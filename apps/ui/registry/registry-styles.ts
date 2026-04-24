@@ -131,11 +131,11 @@ export const styles: Registry["items"] = [
       "lucide-react",
     ],
     description:
-      "Complete coss theme: colors, sidebar, fonts, and base styles. Use with `npx shadcn init @coss/style` for full project setup.",
+      "Complete creantly theme: colors, sidebar, fonts, and base styles. Use with `npx shadcn init @creantly/style` for full project setup.",
     devDependencies: ["tw-animate-css"],
     extends: "none",
     name: "style",
-    registryDependencies: ["utils", "@creantly/ui", "@coss/fonts"],
+    registryDependencies: ["utils", "@creantly/ui", "@creantly/fonts"],
     type: "registry:style",
   },
   {

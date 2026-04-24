@@ -1,4 +1,4 @@
-# coss Autocomplete
+# creantly Autocomplete
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/autocomplete
+npx shadcn@latest add @creantly/autocomplete
 ```
 
 Manual deps from docs:
@@ -67,7 +67,7 @@ const items = [
 
 For form-bound autocomplete controls, prefer `Field` wrappers so label, required state, and error output remain tied to the same control.
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `AutocompletePopup` → Base UI combobox/autocomplete portal (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 

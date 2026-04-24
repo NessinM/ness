@@ -39,7 +39,7 @@ export async function generateMetadata(props: {
 
   return {
     description: doc.description,
-    title: `${doc.title} - coss ui`,
+    title: `${doc.title} - creantly ui`,
   };
 }
 

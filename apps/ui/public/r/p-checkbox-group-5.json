@@ -3,12 +3,12 @@
   "name": "p-checkbox-group-5",
   "description": "Checkbox group form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/checkbox-group",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form"
+    "@creantly/button",
+    "@creantly/checkbox",
+    "@creantly/checkbox-group",
+    "@creantly/field",
+    "@creantly/fieldset",
+    "@creantly/form"
   ],
   "files": [
     {

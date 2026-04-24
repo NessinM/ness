@@ -10,18 +10,18 @@
     "@remixicon/react"
   ],
   "registryDependencies": [
-    "https://coss.com/origin/r/button.json",
-    "https://coss.com/origin/r/calendar.json",
-    "https://coss.com/origin/r/checkbox.json",
-    "https://coss.com/origin/r/dropdown-menu.json",
-    "https://coss.com/origin/r/dialog.json",
-    "https://coss.com/origin/r/input.json",
-    "https://coss.com/origin/r/textarea.json",
-    "https://coss.com/origin/r/label.json",
-    "https://coss.com/origin/r/popover.json",
-    "https://coss.com/origin/r/radio-group.json",
-    "https://coss.com/origin/r/select.json",
-    "https://coss.com/origin/r/sonner.json"
+    "https://creantly.com/origin/r/button.json",
+    "https://creantly.com/origin/r/calendar.json",
+    "https://creantly.com/origin/r/checkbox.json",
+    "https://creantly.com/origin/r/dropdown-menu.json",
+    "https://creantly.com/origin/r/dialog.json",
+    "https://creantly.com/origin/r/input.json",
+    "https://creantly.com/origin/r/textarea.json",
+    "https://creantly.com/origin/r/label.json",
+    "https://creantly.com/origin/r/popover.json",
+    "https://creantly.com/origin/r/radio-group.json",
+    "https://creantly.com/origin/r/select.json",
+    "https://creantly.com/origin/r/sonner.json"
   ],
   "files": [
     {

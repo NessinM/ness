@@ -3,39 +3,39 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com payments",
+  title: "creantly.com payments",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { creantly } from '@creantly';
 
-coss.payments.init({
-  apiKey: process.env.COSS_KEY,
+creantly.payments.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const products = `// Create a product
-await coss.payments.products.create({
+await creantly.payments.products.create({
   name: 'Pro Plan',
   description: 'Access to premium features',
 });
 
 // List products
-await coss.payments.products.list();
+await creantly.payments.products.list();
 
 // Retrieve a product
-await coss.payments.products.retrieve('prod_abc123');
+await creantly.payments.products.retrieve('prod_abc123');
 
 // Update a product
-await coss.payments.products.update('prod_abc123', {
+await creantly.payments.products.update('prod_abc123', {
   description: 'Updated description',
 });
 
 // Delete a product
-await coss.payments.products.delete('prod_abc123');`;
+await creantly.payments.products.delete('prod_abc123');`;
 
   const prices = `// Create a price for a product
-await coss.payments.prices.create({
+await creantly.payments.prices.create({
   productId: 'prod_abc123',
   unitAmount: 2000, // in cents
   currency: 'usd',
@@ -43,36 +43,36 @@ await coss.payments.prices.create({
 });
 
 // List prices
-await coss.payments.prices.list();`;
+await creantly.payments.prices.list();`;
 
   const customers = `// Create a customer
-await coss.payments.customers.create({
+await creantly.payments.customers.create({
   email: 'jane@example.com',
   name: 'Jane Doe',
 });
 
 // Retrieve a customer
-await coss.payments.customers.retrieve('cus_abc123');`;
+await creantly.payments.customers.retrieve('cus_abc123');`;
 
   const subscriptions = `// Create a subscription
-await coss.payments.subscriptions.create({
+await creantly.payments.subscriptions.create({
   customerId: 'cus_abc123',
   priceId: 'price_abc123',
 });
 
 // Retrieve a subscription
-await coss.payments.subscriptions.retrieve('sub_abc123');
+await creantly.payments.subscriptions.retrieve('sub_abc123');
 
 // Update a subscription (e.g., upgrade plan)
-await coss.payments.subscriptions.update('sub_abc123', {
+await creantly.payments.subscriptions.update('sub_abc123', {
   priceId: 'price_def456',
 });
 
 // Cancel a subscription
-await coss.payments.subscriptions.cancel('sub_abc123');`;
+await creantly.payments.subscriptions.cancel('sub_abc123');`;
 
   const invoices = `// Create an invoice manually
-await coss.payments.invoices.create({
+await creantly.payments.invoices.create({
   customerId: 'cus_abc123',
   items: [
     { priceId: 'price_abc123', quantity: 1 },
@@ -80,24 +80,24 @@ await coss.payments.invoices.create({
 });
 
 // Finalize and send the invoice
-await coss.payments.invoices.finalize('inv_abc123');
+await creantly.payments.invoices.finalize('inv_abc123');
 
 // Pay an invoice
-await coss.payments.invoices.pay('inv_abc123');`;
+await creantly.payments.invoices.pay('inv_abc123');`;
 
   const webhooks = `// Webhook events
-coss.payments.webhooks.on('invoice.paid', (event) => {
+creantly.payments.webhooks.on('invoice.paid', (event) => {
   console.log('Invoice paid:', event.data);
 });
 
-coss.payments.webhooks.on('subscription.created', (event) => {
+creantly.payments.webhooks.on('subscription.created', (event) => {
   console.log('Subscription created:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = coss.payments.utils.verifySignature({
+const isValid = creantly.payments.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['coss-payments-signature'],
+  signature: req.headers['creantly-payments-signature'],
   secret: 'whsec_payments_123',
 });`;
 

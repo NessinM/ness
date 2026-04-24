@@ -6,11 +6,11 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@coss/button",
-    "@coss/select",
-    "@coss/toggle-group",
-    "@coss/toolbar",
-    "@coss/tooltip"
+    "@creantly/button",
+    "@creantly/select",
+    "@creantly/toggle-group",
+    "@creantly/toolbar",
+    "@creantly/tooltip"
   ],
   "files": [
     {

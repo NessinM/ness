@@ -1,4 +1,4 @@
-# coss Meter
+# creantly Meter
 
 ## When to use
 
@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/meter
+npx shadcn@latest add @creantly/meter
 ```
 
 Manual deps from docs:
@@ -37,7 +37,7 @@ import { Meter, MeterLabel, MeterValue } from "@/components/ui/meter"
 </Meter>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

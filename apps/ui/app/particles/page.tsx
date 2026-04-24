@@ -16,7 +16,7 @@ const description = `Discover ${particleCount} ready-to-use particles, the build
 
 export const metadata: Metadata = {
   description,
-  title: "Browse Particles - coss ui",
+  title: "Browse Particles - creantly ui",
 };
 
 async function ParticlesDisplayServer({

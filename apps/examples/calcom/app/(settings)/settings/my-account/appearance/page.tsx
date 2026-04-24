@@ -107,8 +107,8 @@ export default function AppearanceSettingsPage() {
         </CardFrame>
 
         <SettingsToggle
-          description="Removes any Cal.com related brandings, i.e. 'Powered by Cal.com.'"
-          title="Disable Cal.com branding"
+          description="Removes any Hookra.com related brandings, i.e. 'Powered by Hookra.com.'"
+          title="Disable Hookra.com branding"
         />
 
         <SettingsToggle

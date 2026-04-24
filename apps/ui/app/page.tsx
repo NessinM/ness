@@ -26,7 +26,8 @@ const particleCount = particles.length;
 
 export const metadata: Metadata = {
   description,
-  title: "A new, modern UI component library built on top of Base UI - coss ui",
+  title:
+    "A new, modern UI component library built on top of Base UI - creantly ui",
 };
 
 export default function Page() {

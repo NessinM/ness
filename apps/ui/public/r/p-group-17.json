@@ -3,9 +3,9 @@
   "name": "p-group-17",
   "description": "Group with input and currency text",
   "registryDependencies": [
-    "@coss/group",
-    "@coss/input",
-    "@coss/label"
+    "@creantly/group",
+    "@creantly/input",
+    "@creantly/label"
   ],
   "files": [
     {

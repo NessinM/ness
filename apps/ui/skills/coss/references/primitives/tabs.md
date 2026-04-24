@@ -1,4 +1,4 @@
-# coss Tabs
+# creantly Tabs
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/tabs
+npx shadcn@latest add @creantly/tabs
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import { Tabs, TabsList, TabsPanel, TabsTab } from "@/components/ui/tabs"
 </Tabs>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

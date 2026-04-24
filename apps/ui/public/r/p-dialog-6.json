@@ -3,11 +3,11 @@
   "name": "p-dialog-6",
   "description": "Dialog with bare footer",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/dialog",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input"
+    "@creantly/button",
+    "@creantly/dialog",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input"
   ],
   "files": [
     {

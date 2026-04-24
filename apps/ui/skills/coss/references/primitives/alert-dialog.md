@@ -1,4 +1,4 @@
-# coss Alert Dialog
+# creantly Alert Dialog
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/alert-dialog
+npx shadcn@latest add @creantly/alert-dialog
 ```
 
 Manual deps from docs:
@@ -63,7 +63,7 @@ import {
 </AlertDialog>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Portal forwarding**: optional `portalProps` on `AlertDialogPopup` → Base UI `AlertDialog.Portal` (`keepMounted`, `container`, …). See [portal-props.md](../portal-props.md).
 - **Section structure invariant**: keep `AlertDialogHeader`, optional `AlertDialogPanel`, and `AlertDialogFooter` as direct sections of `AlertDialogPopup`.

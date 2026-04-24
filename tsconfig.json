@@ -16,7 +16,7 @@
     "strict": true,
     "target": "ESNext"
   },
-  "display": "coss",
+  "display": "creantly",
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "packages/ui" }]
 }

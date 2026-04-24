@@ -11,9 +11,9 @@ import { AppCommand } from "@/components/app/app-command";
 import { DebugProvider } from "@/components/debug-context";
 
 export const metadata: Metadata = {
-  description: "coss.com - the everything but AI company",
-  metadataBase: new URL("https://coss.com"),
-  title: "coss.com",
+  description: "creantly.com - the everything but AI company",
+  metadataBase: new URL("https://creantly.com"),
+  title: "creantly.com",
 };
 
 export default function RootLayout({

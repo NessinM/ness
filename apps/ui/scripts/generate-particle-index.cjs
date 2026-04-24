@@ -4,23 +4,23 @@
  * Generates the COSS Particles SKILL.md file by reading the particle registry
  * from the same repository.
  *
- * Usage (from the coss repo root):
+ * Usage (from the creantly repo root):
  *   node apps/ui/scripts/generate-particle-index.cjs
  *
  * The script reads apps/ui/registry/registry-particles.ts, extracts all
  * particle names and descriptions, groups them by component type, and writes
- * the SKILL.md file to apps/ui/skills/coss-particles/SKILL.md.
+ * the SKILL.md file to apps/ui/skills/creantly-particles/SKILL.md.
  */
 
 const fs = require("node:fs");
 const path = require("node:path");
 
-const COSS_PARTICLES_URL = "https://coss.com/ui/particles";
-const COSS_JSON_BASE_URL = "https://coss.com/ui/r";
+const COSS_PARTICLES_URL = "https://creantly.com/ui/particles";
+const COSS_JSON_BASE_URL = "https://creantly.com/ui/r";
 const COSS_REPO_PARTICLES_PATH = "apps/ui/registry/default/particles";
 
 function main() {
-  // Resolve coss repo root relative to this script
+  // Resolve creantly repo root relative to this script
   const scriptDir = __dirname;
   const repoRoot = path.resolve(scriptDir, "../../..");
   const registryFile = path.join(
@@ -81,22 +81,22 @@ function main() {
   const lines = [];
 
   lines.push("---");
-  lines.push("name: coss-particles");
+  lines.push("name: creantly-particles");
   lines.push(
-    "description: Index of all COSS UI particle examples. Use when implementing UI features to find copy-paste-ready component patterns built on coss primitives. Each particle has a description and a JSON URL for easy installation.",
+    "description: Index of all CREANTLY UI particle examples. Use when implementing UI features to find copy-paste-ready component patterns built on creantly primitives. Each particle has a description and a JSON URL for easy installation.",
   );
   lines.push(
-    "compatibility: Requires coss UI components installed in the project.",
+    "compatibility: Requires creantly UI components installed in the project.",
   );
   lines.push("license: MIT");
   lines.push("metadata:");
-  lines.push("  author: cosscom");
+  lines.push("  author: NessinM");
   lines.push("---");
   lines.push("");
-  lines.push("# COSS UI Particles Index");
+  lines.push("# CREANTLY UI Particles Index");
   lines.push("");
   lines.push(
-    `Particles are copy-paste-ready UI patterns built on [coss](https://coss.com/ui) primitives. Browse them visually at <${COSS_PARTICLES_URL}>.`,
+    `Particles are copy-paste-ready UI patterns built on [creantly](https://creantly.com/ui) primitives. Browse them visually at <${COSS_PARTICLES_URL}>.`,
   );
   lines.push("");
   lines.push("## How to use this skill");
@@ -128,7 +128,7 @@ function main() {
   lines.push("");
   lines.push("## Updating this index");
   lines.push("");
-  lines.push("Run the generator script from the coss repo root:");
+  lines.push("Run the generator script from the creantly repo root:");
   lines.push("```bash");
   lines.push("node apps/ui/scripts/generate-particle-index.cjs");
   lines.push("```");
@@ -163,10 +163,10 @@ function main() {
 
   const skillContent = lines.join("\n");
 
-  // Write to SKILL.md in the coss-particles skill directory
+  // Write to SKILL.md in the creantly-particles skill directory
   const skillFile = path.join(
     repoRoot,
-    "apps/ui/skills/coss-particles/SKILL.md",
+    "apps/ui/skills/creantly-particles/SKILL.md",
   );
   fs.writeFileSync(skillFile, skillContent, "utf8");
 

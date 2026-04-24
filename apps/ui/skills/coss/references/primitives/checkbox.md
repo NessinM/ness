@@ -1,4 +1,4 @@
-# coss Checkbox
+# creantly Checkbox
 
 ## When to use
 
@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/checkbox
+npx shadcn@latest add @creantly/checkbox
 ```
 
 Manual deps from docs:
@@ -38,7 +38,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 </Label>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

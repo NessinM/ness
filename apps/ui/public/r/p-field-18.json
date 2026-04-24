@@ -3,12 +3,12 @@
   "name": "p-field-18",
   "description": "Complete form built with field",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/checkbox",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/select"
+    "@creantly/button",
+    "@creantly/checkbox",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input",
+    "@creantly/select"
   ],
   "files": [
     {

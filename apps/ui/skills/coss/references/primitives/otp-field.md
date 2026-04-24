@@ -1,4 +1,4 @@
-# coss OTP Field
+# creantly OTP Field
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/otp-field
+npx shadcn@latest add @creantly/otp-field
 ```
 
 Manual deps from docs:
@@ -41,7 +41,7 @@ import {
 </OTPField>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

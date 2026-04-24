@@ -3,19 +3,19 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com email",
+  title: "creantly.com email",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { creantly } from '@creantly';
 
-coss.email.init({
-  apiKey: process.env.COSS_KEY,
+creantly.email.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const sendingEmails = `// Send a transactional email
-await coss.email.send({
+await creantly.email.send({
   from: 'noreply@yourapp.com',
   to: 'user@example.com',
   subject: 'Welcome to Our App!',
@@ -24,47 +24,47 @@ await coss.email.send({
 });`;
 
   const domains = `// Create and verify a sending domain
-await coss.email.domains.create({
+await creantly.email.domains.create({
   domain: 'yourapp.com',
 });
 
 // List verified domains
-await coss.email.domains.list();
+await creantly.email.domains.list();
 
 // Delete a domain
-await coss.email.domains.delete('domain_abc123');`;
+await creantly.email.domains.delete('domain_abc123');`;
 
   const templates = `// Create an email template
-await coss.email.templates.create({
+await creantly.email.templates.create({
   name: 'Welcome Template',
   subject: 'Welcome!',
   html: '<h1>Welcome {{name}}</h1>',
 });
 
 // Retrieve a template
-await coss.email.templates.retrieve('tmpl_abc123');
+await creantly.email.templates.retrieve('tmpl_abc123');
 
 // Update a template
-await coss.email.templates.update('tmpl_abc123', {
+await creantly.email.templates.update('tmpl_abc123', {
   html: '<h1>Hello {{name}}!</h1>',
 });
 
 // Delete a template
-await coss.email.templates.delete('tmpl_abc123');`;
+await creantly.email.templates.delete('tmpl_abc123');`;
 
   const webhooks = `// Webhook events
-coss.email.webhooks.on('email.delivered', (event) => {
+creantly.email.webhooks.on('email.delivered', (event) => {
   console.log('Email delivered:', event.data);
 });
 
-coss.email.webhooks.on('email.bounced', (event) => {
+creantly.email.webhooks.on('email.bounced', (event) => {
   console.log('Email bounced:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = coss.email.utils.verifySignature({
+const isValid = creantly.email.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['coss-email-infra-signature'],
+  signature: req.headers['creantly-email-infra-signature'],
   secret: 'whsec_email_123',
 });`;
 

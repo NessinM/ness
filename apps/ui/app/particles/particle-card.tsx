@@ -44,7 +44,8 @@ export async function ParticleCard({
   className?: string;
   colSpan?: number;
 }) {
-  const cossuiUrl = process.env.NEXT_PUBLIC_APP_URL || "https://coss.com/ui";
+  const creantlyuiUrl =
+    process.env.NEXT_PUBLIC_APP_URL || "https://creantly.com/ui";
 
   const particle = await getCachedRegistryItem(name);
 
@@ -79,7 +80,7 @@ export async function ParticleCard({
               </Button>
             )}
             <CopyRegistry
-              value={`${cossuiUrl}/r/${name}.json`}
+              value={`${creantlyuiUrl}/r/${name}.json`}
               variant="outline"
             />
             <Drawer position="right">
@@ -103,10 +104,10 @@ export async function ParticleCard({
                     </h2>
                     <figure data-rehype-pretty-code-figure>
                       <CodeBlockCommand
-                        __bun__={`bunx --bun shadcn@latest add @coss/${name}`}
-                        __npm__={`npx shadcn@latest add @coss/${name}`}
-                        __pnpm__={`pnpm dlx shadcn@latest add @coss/${name}`}
-                        __yarn__={`yarn dlx shadcn@latest add @coss/${name}`}
+                        __bun__={`bunx --bun shadcn@latest add @creantly/${name}`}
+                        __npm__={`npx shadcn@latest add @creantly/${name}`}
+                        __pnpm__={`pnpm dlx shadcn@latest add @creantly/${name}`}
+                        __yarn__={`yarn dlx shadcn@latest add @creantly/${name}`}
                       />
                     </figure>
                   </div>
@@ -118,7 +119,7 @@ export async function ParticleCard({
                       <Button
                         render={
                           <a
-                            href={`https://v0.dev/chat/api/open?url=${encodeURIComponent(`${cossuiUrl}/r/${name}.json`)}`}
+                            href={`https://v0.dev/chat/api/open?url=${encodeURIComponent(`${creantlyuiUrl}/r/${name}.json`)}`}
                             rel="noopener noreferrer"
                             target="_blank"
                           >

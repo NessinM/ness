@@ -3,28 +3,28 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   description: "open source is the foundation of all modern software",
-  title: "coss.com scheduling",
+  title: "creantly.com scheduling",
 };
 
 export default function Page() {
-  const initialization = `import { coss } from '@coss';
+  const initialization = `import { creantly } from '@creantly';
 
-coss.scheduling.init({
-  apiKey: process.env.COSS_KEY,
+creantly.scheduling.init({
+  apiKey: process.env.CREANTLY_KEY,
   environment: 'production', // or 'sandbox'
 });`;
 
   const users = `// Create a user
-await coss.scheduling.users.create({
+await creantly.scheduling.users.create({
   email: 'jane@example.com',
   name: 'Jane Doe',
 });
 
 // Retrieve a user
-await coss.scheduling.users.retrieve('user_abc123');`;
+await creantly.scheduling.users.retrieve('user_abc123');`;
 
   const schedules = `// Create a schedule
-await coss.scheduling.schedules.create({
+await creantly.scheduling.schedules.create({
   userId: 'user_abc123',
   availability: [
     {
@@ -37,10 +37,10 @@ await coss.scheduling.schedules.create({
 });
 
 // Retrieve schedules
-await coss.scheduling.schedules.list({ userId: 'user_abc123' });`;
+await creantly.scheduling.schedules.list({ userId: 'user_abc123' });`;
 
   const eventTypes = `// Create an event type
-await coss.scheduling.eventTypes.create({
+await creantly.scheduling.eventTypes.create({
   userId: 'user_abc123',
   name: 'Consultation',
   duration: 30,
@@ -48,10 +48,10 @@ await coss.scheduling.eventTypes.create({
 });
 
 // Retrieve event types
-await coss.scheduling.eventTypes.list({ userId: 'user_abc123' });`;
+await creantly.scheduling.eventTypes.list({ userId: 'user_abc123' });`;
 
   const bookings = `// Create a booking
-await coss.scheduling.bookings.create({
+await creantly.scheduling.bookings.create({
   eventTypeId: 'eventType_abc123',
   attendee: {
     name: 'John Smith',
@@ -61,21 +61,21 @@ await coss.scheduling.bookings.create({
 });
 
 // Retrieve bookings
-await coss.scheduling.bookings.list({ userId: 'user_abc123' });`;
+await creantly.scheduling.bookings.list({ userId: 'user_abc123' });`;
 
   const webhooks = `// Webhook events
-coss.scheduling.webhooks.on('booking.created', (event) => {
+creantly.scheduling.webhooks.on('booking.created', (event) => {
   console.log('New booking:', event.data);
 });
 
-coss.scheduling.webhooks.on('booking.cancelled', (event) => {
+creantly.scheduling.webhooks.on('booking.cancelled', (event) => {
   console.log('Booking cancelled:', event.data);
 });`;
 
   const utilities = `// Validate webhook signature
-const isValid = coss.scheduling.utils.verifySignature({
+const isValid = creantly.scheduling.utils.verifySignature({
   payload: req.body,
-  signature: req.headers['coss-scheduling-signature'],
+  signature: req.headers['creantly-scheduling-signature'],
   secret: 'whsec_scheduling_123',
 });`;
 

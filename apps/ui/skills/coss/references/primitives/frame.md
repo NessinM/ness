@@ -1,4 +1,4 @@
-# coss Frame
+# creantly Frame
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/frame
+npx shadcn@latest add @creantly/frame
 ```
 
 Manual deps from docs:
@@ -43,7 +43,7 @@ import {
 </Frame>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 ### Key patterns
 

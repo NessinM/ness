@@ -20,17 +20,17 @@ const addEventsToGroups = [
   {
     items: [
       {
-        label: "example@cal.com",
-        triggerLabel: "example@cal.com (Google - example@cal.com)",
+        label: "example@hookra.com",
+        triggerLabel: "example@hookra.com (Google - example@hookra.com)",
         value: "google-example",
       },
       {
         label: "Team",
-        triggerLabel: "Team (Google - example@cal.com)",
+        triggerLabel: "Team (Google - example@hookra.com)",
         value: "google-team",
       },
     ],
-    label: "Google (example@cal.com)",
+    label: "Google (example@hookra.com)",
   },
 ];
 

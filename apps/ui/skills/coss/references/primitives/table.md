@@ -1,4 +1,4 @@
-# coss Table
+# creantly Table
 
 ## When to use
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npx shadcn@latest add @coss/table
+npx shadcn@latest add @creantly/table
 ```
 
 Manual deps from docs:
@@ -51,12 +51,12 @@ import {
 </Table>
 ```
 
-## Patterns from coss particles
+## Patterns from creantly particles
 
 - **Semantic baseline**: start with `TableHeader`/`TableBody`/`TableRow`/`TableHead`/`TableCell`, then add `TableCaption` and `TableFooter` as needed.
 - **Card variant**: set `variant="card"` on `Table` for rounded, card-like rows and separated borders (`p-table-5`). Combine with `Frame` for app-surface framing (`p-table-2`), with `CardFrame` for static tables in a card shell (`p-table-7`), or with TanStack inside `CardFrame` for selection (`p-table-6`) or sorting and pagination (`p-table-8`).
 - **Status-rich rows**: combine `Badge` and decorative dots/icons for state columns while keeping text primary.
-- **Interactive data grids**: pair coss table parts with TanStack Table (`flexRender`, row models, selection state) for sorting/pagination/selection.
+- **Interactive data grids**: pair creantly table parts with TanStack Table (`flexRender`, row models, selection state) for sorting/pagination/selection.
 - **No-results state**: always render an explicit empty-state row with `colSpan` matching visible columns.
 - **Fixed layout control**: use `className="table-fixed"` and column width styles when predictable column sizing is required.
 

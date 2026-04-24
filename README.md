@@ -1,22 +1,22 @@
-![coss.com](https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156)
+![creantly.com](https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156)
 
-<h3 align="center">coss.com (formerly Origin UI)</h3>
+<h3 align="center">creantly.com (formerly Origin UI)</h3>
 <p align="center">The <strong>everything but AI</strong> company.</p>
 
 ## About the Project
 
-coss.com is the new holding company of [cal.com](https://cal.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
+creantly.com is the new holding company of [hookra.com](https://hookra.com), the pioneers of open source scheduling infrastructure. Our mission is to build a home for amazing open source projects, giving them the support they need to grow and succeed.
 
-We're building the coss stack, a one line `npm install @coss` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
+We're building the creantly stack, a one line `npm install @creantly` package that includes everything you need to build your application, from email, SMS, calendar APIs, scheduling, video conferencing, notifications and more.
 
 ## Repository Overview
 
-This repository contains multiple products and applications that make up the coss.com ecosystem:
+This repository contains multiple products and applications that make up the creantly.com ecosystem:
 
 ### Apps and Packages
 
-- **`apps/www/`** - Main coss.com website
-- **`apps/ui/`** - coss ui component library and documentation
+- **`apps/www/`** - Main creantly.com website
+- **`apps/ui/`** - creantly ui component library and documentation
 - **`apps/origin/`** - Legacy Origin UI components (pre-acquisition)
 - **`packages/ui/`** - Shared UI components package
 - **`packages/typescript-config/`** - TypeScript configurations
@@ -106,19 +106,19 @@ bun run dev --filter=ui
 bun run dev --filter=origin
 ```
 
-## coss ui
+## creantly ui
 
-**coss ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
+**creantly ui** is a collection of beautifully designed, accessible, and composable components for your React apps. Built on top of [Base UI](https://base-ui.com/) and styled with [Tailwind CSS](https://tailwindcss.com/), it's designed for you to copy, paste, and own.
 
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
-This is the component library we'll be progressively adopting for [cal.com](https://cal.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
+This is the component library we'll be progressively adopting for [hookra.com](https://hookra.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
 
 ### Origin UI Acquisition
 
-This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://coss.com/ui/particles) components built on the coss ui primitives.
+This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://creantly.com/ui/particles) components built on the creantly ui primitives.
 
-### Contributing to coss ui
+### Contributing to creantly ui
 
 We're always looking for contributors to help improve our UI components. Whether it's a bug report, a new feature, or a documentation update, we appreciate your help.
 
