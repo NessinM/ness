@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Generates the COSS Particles SKILL.md file by reading the particle registry
+ * Generates the CREANTLY Particles SKILL.md file by reading the particle registry
  * from the same repository.
  *
  * Usage (from the creantly repo root):
